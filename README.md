@@ -5,7 +5,7 @@
 - Create a pure TypeScript implementation of the Kyber algorithm with a great API (ESM & CommonJS)
 - Create a proper test suite (check what others do)
 - Measure and compare performance to other implementations (WebAssembly)
-- Apply to https://www.opentech.fund/ or similar for an in-depth audit
+- Apply to https://www.opentech.fund/ or similar for an in-depth cryptography audit
 
 ## Why not use an existing implementation compiled to WebAssembly
 
