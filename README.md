@@ -41,7 +41,7 @@ This summer NIST started to [standardize Kyber](https://www.nist.gov/news-events
 - https://github.com/symbolicsoft/kyber-k2so
   - https://symbolic.software/blog/2023-12-19-kyberk2sovariabletiming/ an issue in multiple implementations was found and fixed
 - https://github.com/antontutoveanu/crystals-kyber-javascript - JS implementation - maybe out of date? missing fixes for issues? API design?
-- https://github.com/fisherstevenk/crystals-kyber-ts/ - TS implementation - missing fixes for issues? API design?
+- https://github.com/fisherstevenk/crystals-kyber-ts/ - TS implementation - maybe fine? maybe missing fixes for issues? API design?
 
 ## API Proposal
 
