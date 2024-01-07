@@ -45,15 +45,16 @@ This summer NIST started to [standardize Kyber](https://www.nist.gov/news-events
 
 ## API Proposal
 
+Key Encapsulation
+
 ```ts
 import { generateKeyPair, encapsulate, decapsulate } from '@serenity-kit/kyber-768';
 
-const keyPairAlice = generateKeyPair();
 const keyPairBob = generateKeyPair();
 
-const { ciphertext, sharedKey } = encapsulate(keyPairAlice.privateKey, keyPairBob.publicKey);
-const sharedKey2 = decapsulate(keyPairBob.privateKey, keyPairAlice.publicKey, ciphertext);
-// sharedKey === sharedKey2
+const { ciphertext, sharedSecret } = encapsulate(keyPairBob.publicKey);
+const sharedSecret2 = decapsulate(keyPairBob.privateKey, ciphertext);
+// sharedSecret === sharedSecret2
 ```
 
 Other packages:
