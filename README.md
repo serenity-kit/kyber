@@ -59,5 +59,5 @@ const sharedSecret2 = decapsulate(keyPairBob.privateKey, ciphertext);
 
 Other packages:
 
-- '@serenity-kit/kyber-512'
-- '@serenity-kit/kyber-1024'
+- `@serenity-kit/kyber-512`
+- `@serenity-kit/kyber-1024`
